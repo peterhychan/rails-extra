@@ -1,2 +1,15 @@
-<h1>StaticPages#help</h1>
-<p>Find me in app/views/static_pages/help.html.erb</p>
+<% provide(:title, "Help") %>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= yield(:title) %> | Ruby on Rails Submission RAM</title>
+  </head>
+  <body>
+    <h1>Submission RAM </h1>
+    <p>
+      This web app is created by 
+      <a href="https://github.com/peterhychan/rails-extra">Peter Ho Yeung Chan</a>
+    </p>
+  </body>
+</html>
