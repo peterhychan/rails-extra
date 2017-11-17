@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'bcrypt',         '3.1.11'
 gem 'rails-controller-testing'
 gem 'rails',        '5.1.2'
 gem 'bootstrap-sass', '3.3.7'
