@@ -1,3 +1,4 @@
+<div class="center jumbotron">
 <% provide(:title, "Home") %>
 <!DOCTYPE html>
 <html>
@@ -5,10 +6,19 @@
     <title><%= yield(:title) %> | Ruby on Rails Submission RAM</title>
   </head>
   <body>
+      <%= link_to image_tag("rams.gif", alt: "RAM"),
+            'https://github.com/peterhychan/' %>   
     <h1>Submission RAM </h1>
-    <p>
+    <h2>
       This web app is created by 
       <a href="https://github.com/peterhychan/rails-extra">Peter Ho Yeung Chan</a>
-    </p>
-  </body>
+    </h2>
+ 
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+  
+</div>  
+    
+  
+    </body>
 </html>
+

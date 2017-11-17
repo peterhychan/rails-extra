@@ -1,15 +1,10 @@
-<% provide(:title, "Contact") %>
+<% provide(:title, 'Contact') %>
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <title><%= yield(:title) %> | Ruby on Rails Submission RAM</title>
-  </head>
-  <body>
-    <h1>Submission RAM </h1>
-    <p>
-      This web app is created by 
-      <a href="https://github.com/peterhychan/rails-extra">Peter Ho Yeung Chan</a>
-    </p>
-  </body>
-</html>
+<h1>Contact</h1>
+<h2><%= link_to image_tag("output_image.jpg", height: 200, width: 300, alt: "RAM"),
+            'https://github.com/peterhychan/' %> </h2>
+  
+<h2>
+  Contact Peter Ho Yeung Chan about Submission RAM via 
+  <a href=mailto:peterchan01272002@gmail.com?subject=SubmissionRAM Feedback">email</a>
+</h2>
