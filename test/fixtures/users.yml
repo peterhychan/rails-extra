@@ -3,3 +3,11 @@ peter:
   name: Peter Chan
   email: hchan80@mail.ccsf.edu
   password_digest: <%= User.digest('password') %>
+  admin: true  
+
+<% 20.times do |n| %>
+user_<%= n %>:
+  name:  <%= "User #{n}" %>
+  email: <%= "user-#{n}@mail.ccsf.edu" %>
+  password_digest: <%= User.digest('password') %>
+<% end %>

@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'will_paginate',           '3.1.5'
+gem 'bootstrap-will_paginate', '1.0.0'
+gem 'faker',          '1.7.3'
 gem 'bcrypt',         '3.1.11'
 gem 'rails-controller-testing'
 gem 'rails',        '5.1.2'
