@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The project is now in progress. 
 
-Things you may want to cover:
 
-* Ruby version
+- The Sign Up feature is completed
+- The Login feature is completed
+- The Logout feature is completed
 
-* System dependencies
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- The submission form after login is incompleted
+- The email confirmation for a new account is incompleted
+- The password reset feature is incompleted
+- ...
