@@ -1,0 +1,23 @@
+<% provide(:title, "Log in") %>
+<h1>Log in</h1>
+
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+          <h2><%= link_to image_tag("rams.gif", alt: "RAM"),
+            'https://github.com/peterhychan/' %>  </h2>
+      <h2>The Truth Shall Make You Free</h2>
+      
+    <%= form_for(:session, url: login_path) do |f| %>
+
+      <%= f.label :email %>
+      <%= f.email_field :email, class: 'form-control' %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password, class: 'form-control' %>
+
+      <%= f.submit "Log in", class: "btn btn-primary" %>
+    <% end %>
+
+    <p>New Student? Click<%= link_to " Here ", signup_path %>to Sign Up.</p>
+  </div>
+</div>
