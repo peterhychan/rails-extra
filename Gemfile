@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-gem 'ruby',           '2.3.4'
 gem 'bcrypt',         '3.1.11'
 gem 'rails-controller-testing'
 gem 'rails',        '5.1.2'
